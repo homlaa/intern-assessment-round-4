@@ -2,4 +2,4 @@
 
 ## Progress
 
-Started by <Ingabire Chadia>, Round 4
+Started by Ingabire Chadia, Round 4
