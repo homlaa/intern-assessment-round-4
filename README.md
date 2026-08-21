@@ -1,4 +1,4 @@
 # Intern Assessment — Round 4
 
 ## Progress
-_Checkpoint: baseline verified by reviewer._
+Started by Love Ishema Nkerabahizi, Round 2.
