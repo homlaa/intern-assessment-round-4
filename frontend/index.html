@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Attendee Registration</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Attendee Registration</h1>
+
+    <form id="registration-form" novalidate>
+      <div class="field">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" autocomplete="given-name" />
+        <span class="error" id="error-firstName"></span>
+      </div>
+
+      <div class="field">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" autocomplete="family-name" />
+        <span class="error" id="error-lastName"></span>
+      </div>
+
+      <div class="field">
+        <label for="birthdate">Birthdate</label>
+        <input type="date" id="birthdate" name="birthdate" />
+        <span class="error" id="error-birthdate"></span>
+      </div>
+
+      <div class="field">
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="e.g. Kigali" autocomplete="off" />
+        <span class="error" id="error-city"></span>
+      </div>
+
+      <div id="weather-result" class="weather-result" hidden></div>
+      <div id="status-message" class="status-message" role="status"></div>
+
+      <div class="actions">
+        <button type="button" id="clear-btn" class="btn btn-secondary">Clear</button>
+        <button type="submit" id="save-btn" class="btn btn-primary">Save</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

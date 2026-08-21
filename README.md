@@ -1,4 +1,9 @@
-# Intern Assessment — Round 4
+# Attendee Registration App
+
+A small full-stack app: a registration form (First Name, Last Name, Birthdate,
+City) that geocodes the city, shows current weather for it, and saves the
+registration to a SQLite backend.
 
 ## Progress
-_Checkpoint: baseline verified by reviewer._
+
+Started by Love, Round 2.
