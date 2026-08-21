@@ -1,0 +1,4 @@
+node_modules/
+backend/attendees.db
+backend/attendees.db-shm
+backend/attendees.db-wal
